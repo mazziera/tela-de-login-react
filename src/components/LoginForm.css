@@ -1,0 +1,78 @@
+.login_form_container {
+  width: 450px;
+  padding: 20px 10px;
+  background: rgba(255, 255, 255, 0.15); /*efeito de gelo */
+  border-radius: 20px;
+  color: #fff;
+  text-align: center;
+  text-shadow: 1px 1px 1px black;
+}
+
+h2 {
+  font-size: 35px;
+  color: #fff;
+}
+
+.login_form_container .input_field {
+  width: 80%;
+  height: 30px;
+  position: relative;
+  margin: 40px auto;
+}
+
+.input_field input {
+  width: 80%;
+  height: 100%;
+  padding: 10px 35px;
+  background: transparent;
+  outline: none;
+  border: 2px solid rgba(255, 255, 255, 0.7);
+  border-radius: 40px;
+  font-size: 16px;
+  color: #fff;
+}
+
+.input_field input::placeholder {
+  font-weight: bold;
+}
+
+.input_field .icon {
+  /* centralizando os icones dentro do input */
+  position: absolute;
+  right: 25px;
+  top: 50%;
+  font-size: 18px;
+}
+
+button {
+  width: 80%;
+  height: 40px;
+  margin: 20px auto;
+  border: none;
+  border-radius: 50px;
+  font-weight: bold;
+  font-size: 17px;
+  text-shadow: none;
+  cursor: pointer;
+  transition: 0.7s ease-out;
+}
+
+.recall_forget {
+  display: flex;
+  justify-content: space-around;
+}
+
+.recall_forget input {
+  cursor: pointer;
+}
+
+a:hover {
+  transition: 0.5s ease-out;
+  text-decoration: underline;
+  color: #c5b8b8;
+}
+
+button:hover {
+  background-color: #341c8c;
+  color: #fff;
+}
