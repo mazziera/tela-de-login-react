@@ -54,7 +54,7 @@
   - Contribuições são bem-vindas! Se você encontrar algum problema ou tiver sugestões para melhorias, sinta-se à vontade para abrir uma issue ou enviar um pull request.
 
 ## Links
-  - projeto: https://github.com/mazziera/React
+  - projeto: [https://github.com/mazziera/React](https://github.com/mazziera/tela-de-login-react)
   - deploy: https://tela-de-login-react-topaz.vercel.app/
 
 ## Meu Processo
