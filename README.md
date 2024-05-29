@@ -27,7 +27,7 @@
 
     ### Clonar repositório
 
-        git clone 
+        git clone https://github.com/mazziera/tela-de-login-react
     
 
     ### Instalar dependências
